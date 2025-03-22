@@ -209,3 +209,14 @@ sudo docker tag my-python-app your-dockerhub-username/my-python-app:latest
 sudo docker push your-dockerhub-username/my-python-app:latest
 ```
 
+![Screenshot (64)](https://github.com/user-attachments/assets/af1456f8-37bb-4d34-ab59-eed508ca811d)
+
+![Screenshot (65)](https://github.com/user-attachments/assets/b0736d1c-4523-445a-8d3e-1dd66c35abbe)
+![Screenshot (65)](https://github.com/user-attachments/assets/34af13c4-98f8-478e-ab18-02ce1b4963c2)
+
+![Screenshot (70)](https://github.com/user-attachments/assets/79cc8a7e-7df7-4666-8193-9e3b7ed04b8e)
+
+![Screenshot (69)](https://github.com/user-attachments/assets/cdeffd44-76b9-45c6-aaf4-ce25de43a252)
+
+
+
