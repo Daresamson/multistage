@@ -49,6 +49,9 @@ if __name__ == "__main__":
 
 ---
 
+![Screenshot (64)](https://github.com/user-attachments/assets/9b4f36ad-ef1e-4d64-81c8-7dbe6b63b7a4)
+
+
 ## ✅ Step 3: Create `requirements.txt`  
 This file lists dependencies needed for the project.  
 
@@ -65,6 +68,10 @@ flask
 **Save and exit** (`CTRL + X`, then `Y`, then `ENTER`).  
 
 ---
+
+![Screenshot (65)](https://github.com/user-attachments/assets/ff92fef2-b74d-48df-b3d1-44acb344809c)
+
+![Screenshot (66)](https://github.com/user-attachments/assets/0e48cb12-6aad-4144-a7e2-2e71be50b03c)
 
 ## ✅ Step 4: Create a **Multistage Dockerfile**  
 Now, let's create an optimized **multistage Dockerfile**.  
@@ -106,6 +113,9 @@ CMD ["python", "app.py"]
 **Save and exit** (`CTRL + X`, then `Y`, then `ENTER`).  
 
 ---
+![Screenshot (67)](https://github.com/user-attachments/assets/a9c6c66b-134e-40eb-a241-23c46668cbd6)
+![Screenshot (65)](https://github.com/user-attachments/assets/079d2d3a-47b6-4208-a088-52ab33f12a57)
+
 
 ## ✅ Step 5: Create a `.dockerignore` File  
 To avoid copying unnecessary files into the Docker image:  
@@ -127,6 +137,8 @@ venv/
 **Save and exit** (`CTRL + X`, then `Y`, then `ENTER`).  
 
 ---
+![Screenshot (69)](https://github.com/user-attachments/assets/d7d11ed8-b76f-4ace-9fa7-3d77330d810f)
+
 
 ## ✅ Step 6: Build the Docker Image  
 Now, build your optimized **Docker image**:  
@@ -141,6 +153,8 @@ This will:
 ✅ **Copy only the necessary files** to minimize image size  
 
 ---
+![Screenshot (70)](https://github.com/user-attachments/assets/69261a1b-ef7f-4909-a45d-22cea92faadf)
+
 
 ## ✅ Step 7: Run the Container  
 Now, start a container from the built image:  
@@ -153,6 +167,7 @@ sudo docker run -d -p 5000:5000 my-python-app
 - `-p 5000:5000` → Map **port 5000** in the container to **port 5000** on EC2  
 
 ---
+![Screenshot (67)](https://github.com/user-attachments/assets/399104cd-70f9-4be4-9473-a8f49ecfc5ff)
 
 ## ✅ Step 8: Verify the Running Container  
 Check if the container is running:  
@@ -169,6 +184,15 @@ abcd1234       my-python-app   "python app.py"  Up 1 min        0.0.0.0:5000->50
 ```
 
 ---
+
+![Screenshot (66)](https://github.com/user-attachments/assets/4677a8d7-f258-4f89-9f34-31746cc26e83)
+
+
+![Screenshot (69)](https://github.com/user-attachments/assets/a5a3437a-6c3e-4248-95a4-0ebcf1e2d084)
+
+![Screenshot (70)](https://github.com/user-attachments/assets/46f20d58-0788-42a7-81b3-9c0c8d886874)
+
+
 
 ## ✅ Step 9: Test the Application  
 Check if the app is running by curling from the EC2 instance:  
